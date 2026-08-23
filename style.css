@@ -31,7 +31,9 @@ body{
     font-family:'Poppins',sans-serif;
     color:var(--text);
     background:#fff;
-    overflow-x:hidden;
+    body {
+    overflow: auto;
+}
 }
 
 h1,h2,h3,h4{
