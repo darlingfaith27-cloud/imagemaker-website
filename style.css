@@ -640,8 +640,16 @@ section.show{
 /* IMAGE MAKER BANNER */
 .site-banner {
     width: 100%;
+    max-width: 1400px;
     height: auto;
     display: block;
-    margin: 0;
+    margin: 0 auto;
     object-fit: contain;
+}
+
+body {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
