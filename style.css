@@ -640,7 +640,7 @@ section.show{
 /* IMAGE MAKER BANNER */
 .site-banner {
     width: 100%;
-    max-width: 1400px;
+   max-width: 1200px; 
     height: auto;
     display: block;
     margin: 0 auto;
@@ -649,7 +649,7 @@ section.show{
 
 body {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow-x: hidden;
 }
