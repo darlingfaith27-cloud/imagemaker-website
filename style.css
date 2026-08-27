@@ -677,3 +677,39 @@ body {
     display: block;
     border-radius: 10px;
 }
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        width: 100%;
+        padding: 12px 8px;
+        margin: 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    .navbar li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar a {
+        display: block;
+        text-decoration: none;
+        font-size: 0.85rem;
+        padding: 6px 8px;
+    }
+}
