@@ -739,3 +739,72 @@ body {
         padding: 6px 8px;
     }
 }
+/* FINAL MOBILE CLEANUP */
+@media (max-width: 768px) {
+
+    /* Clean mobile navigation */
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .navbar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .navbar li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 8px 0;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    /* Remove excessive space around the main content */
+    main {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    /* Make large mobile headings readable */
+    h1 {
+        font-size: 2rem;
+        line-height: 1.15;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    /* Keep the square hero/banner responsive */
+    .site-banner {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+}
