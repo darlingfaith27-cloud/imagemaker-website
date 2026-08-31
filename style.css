@@ -640,11 +640,12 @@ section.show{
 /* IMAGE MAKER BANNER */
 .site-banner {
     width: 100%;
-   max-width: 1200px; 
+    max-width: 750px;
     height: auto;
     display: block;
     margin: 0 auto;
     object-fit: contain;
+}
 }
 
 body {
@@ -662,7 +663,32 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+/* MOBILE BOOK LAYOUT */
+@media (max-width: 768px) {
+    .books-grid {
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 
+    .book-card {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .book-card img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: contain;
+        display: block;
+    }
+}
 .book-card {
     width: 100%;
     max-width: 340px;
