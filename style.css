@@ -965,7 +965,4 @@ body {
 .banner-section {
     display: none !important;
 }
-/* Hide the extra banner under Book a Session */
-.site-banner {
-    display: none !important;
-}
+
