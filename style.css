@@ -925,3 +925,39 @@ body {
         margin-top: 0 !important;
     }
 }
+/* ==============================
+   MOBILE RESPONSIVE FIX
+================================ */
+
+@media (max-width: 800px) {
+
+  .testimonials {
+    padding: 45px 20px;
+  }
+
+  .testimonials h2 {
+    font-size: 28px;
+    margin: 8px 0 20px;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 20px;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 18px;
+  }
+
+  .testimonial-card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .testimonial-card h4 {
+    margin-top: 12px;
+  }
+}
