@@ -179,7 +179,9 @@ header{
     border-radius:25px;
     box-shadow:var(--shadow);
 }
-
+.menu-toggle{
+    display:none;
+}
 /* ================= MOBILE ================= */
 
 @media(max-width:900px){
@@ -193,7 +195,30 @@ text-align:center;
 flex-direction:column;
 gap:20px;
 }
+.menu-toggle{
+    display:block;
+    background:none;
+    border:none;
+    font-size:30px;
+    cursor:pointer;
+    color:var(--primary);
+    position:absolute;
+    right:25px;
+    top:20px;
+    z-index:1001;
+}
 
+.navbar{
+    display:none;
+}
+
+.navbar.mobile-open{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:100%;
+    text-align:center;
+}
 .navbar ul{
 flex-wrap:wrap;
 justify-content:center;
