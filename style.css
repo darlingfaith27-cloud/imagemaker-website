@@ -124,11 +124,11 @@ header{
     max-width:1300px;
     margin:150px auto 80px;
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr;
     align-items:center;
     gap:60px;
 }
-
+.hero-image { order:-1; }
 .hero h1{
     font-size:60px;
     line-height:1.2;
