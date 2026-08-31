@@ -961,3 +961,7 @@ body {
     margin-top: 12px;
   }
 }
+/* Hide the extra Image Maker banner */
+.banner-section {
+    display: none !important;
+}
