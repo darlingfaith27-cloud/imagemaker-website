@@ -973,3 +973,27 @@ body {
     visibility: visible !important;
     opacity: 1 !important;
 }
+/* FIX HERO BANNER */
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image .banner-image {
+    display: block;
+    width: 100%;
+    max-width: 580px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+/* Keep the hero layout balanced */
+@media (max-width: 768px) {
+    .hero-image .banner-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
