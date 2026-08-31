@@ -960,4 +960,16 @@ body {
   .testimonial-card h4 {
     margin-top: 12px;
   }
+/* Restore the main square hero banner */
+.hero-image {
+    display: block !important;
+    width: 100%;
+}
 
+.hero-image img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
